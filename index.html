@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=lablfo, initial-scale=1.0" />
     <title>Bulb</title>
-  <link rel="stylesheet" href="css/bulb.css" />
+    <link rel="stylesheet" href="css/bulb.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="cont">
       <h1>
         JavaScript <br />
         Bulb On/Off
@@ -16,8 +16,8 @@
       <img class="bulbOff" src="imgs/bulb-Off.png" alt="Blub" />
 
       <div class="btn-box">
-        <button class="bulbbutton Onbtn" onclick="bulbOn()">ON</button>
-        <button class="bulbbutton" onclick="bulbOff()">OFF</button>
+        <button class="bulbbutton" id="onbtn" onclick="bulbOn()">ON</button>
+        <button class="bulbbutton" id="offbtn" onclick="bulbOff()">OFF</button>
       </div>
     </div>
 
